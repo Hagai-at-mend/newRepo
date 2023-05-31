@@ -8,13 +8,6 @@
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff"
   },
-  "scanSettingsSAST": {
-    "enableScan": true,
-    "scanPullRequests": true,
-    "incrementalScan": false,
-    "configExternalURL": "https://raw.githubusercontent.com/mend-toolkit/mend-examples/main/Repo-Integration/configs/SAST/Java2x/mendsastcli-config.json",
-    "baseBranches": ["develop"]
-  },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
     "severityThreshold": "success"
